@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+	<!--
+			Mox Brown:
+			File Name: bp.html
+			Date: May 2, 2022
+	-->
+	
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/styles.css">
+		<title>BP</title>
+		<link rel="shortcut icon" href="images/favicon.icon">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+		<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+	</head>
+	
+	
+	
+	<nav>
+		<ul>
+			<li><a href="./home.html">Home</li></a>
+			<li><a href="./about.html">About Us</a></li>
+			<li><a href="./help.html">Help</a></li>
+		</ul>
+	</nav>
+	
+	
+	
+	<main>
+		<header id="landing">
+			<h1>LGBTQ+ Media Club<h1>
+		</header>
+		
+		<section class="container">
+			<div class="left-half">
+				<article>
+				<h1>Left Half</h1>
+					<p>Weekends don't count unless you spend them doing something completely pointless.</p>
+				</article>
+			</div>
+			
+			<div class="right-half">
+				<article>
+				  <h1>Right Half</h1>
+				  <p>If your knees aren't green by the end of the day, you ought to seriously re-examine your life.</p>
+				</article>
+			</div>
+</section>
+		
+		<div  id="text block">
+			<p>Main element</p>
+		</div>
+	</main>
+		
+	<footer>
+		<p>&copy; Copyright 2022. All Rights Reserved.</p>
+		<p><a href = "mailto: sarahanbrown@valdosta.edu">Contact Us</a></p>
+	</footer>
+
+	<body>
+		
+	</body>
+</html>

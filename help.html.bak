@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+	<!--
+			Mox Brown:
+			File Name: bp.html
+			Date: May 2, 2022
+	-->
+	
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/styles.css">
+		<title>BP</title>
+		<link rel="shortcut icon" href="images/favicon.icon">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+		<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+	</head>
+	
+	
+	
+	<nav>
+		<ul>
+			<li><a href="./index.html">Home</li></a>
+			<li><a href="./about.html">About Us</a></li>
+			<li><a href="./help.html">Help</a></li>
+		</ul>
+	</nav>
+	
+	
+	
+	<main>
+		<header id="landing">
+			<h1>LGBTQ+ Media Club<h1>
+		</header>
+		
+		
+		
+		<div  id="text block">
+			<p><h2><b><a href="https://www.practicewithpronouns.com/#/?_k=66ex3v">Practice Pronouns</a></b></h2>- Practice comonly used pronouns or fill in your own!</p>
+			<p><h2><b><a href="https://www.thetrevorproject.org/">The Trevor Project</a></b></h2>- Thier mission is to end suicide among queer teens.</p>
+			<p><h2><b><a href="https://www.brown.edu/campus-life/support/lgbtq/graduate-student-resources/queer-theory-reading-list">Queer Theory Reading List</a></b></h2>- Brown University's list of Queer Theory "must reads."</p>
+		</div>
+	</main>
+		
+	<footer>
+		<p>&copy; Copyright 2022. All Rights Reserved.</p>
+		<p><a href = "mailto: sarahanbrown@valdosta.edu">Contact Us</a></p>
+	</footer>
+
+	<body>
+		
+	</body>
+</html>

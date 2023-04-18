@@ -1,0 +1,212 @@
+/* 
+Author: Mox Brown
+Date: May 2, 2022 
+File Name: styles.css 
+*/
+
+/* Font Import */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Roboto&family=Roboto+Mono:wght@500&display=swap');
+
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	font-family: 'Roboto Mono', monospace;
+}
+
+/* Style rule for images */
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Style rule for box sizing applies to all elements */
+* {
+	box-sizing: border-box;
+}
+
+/* Style rules for mobile viewport */
+
+/* Hide tab-desk class */
+.tab-desk {
+		display: none;
+}
+
+/* Style rules for header content */
+header {
+	text-align: center;
+	text-shadow: 4px 4px 2px #473b78;	
+	font-size: 2em; 
+	color: #fff;
+	padding: 2em 0;	
+}
+
+/* Style rules for navigation area */
+nav {
+	background-color: #74569b;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+nav li {
+	display: block;
+	font-size: 1.5 em;
+	border-top: 1px solid #d8bfd8;
+	border-bottom: 1px solid #d8bfd8;
+
+}
+
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: left;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+/* Style rules for main content */
+
+#landing {
+	width: 100%; 
+	background-image: url("../images/book_club.jpg");
+	background-color: #74569b;
+	background-position: center;
+	
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	color: #fff;	
+}
+
+#content h2 {
+	font-size: 0.75em;
+}
+
+.twitter-timeline {
+	min-width: 75%;
+	max-width: 90%;	
+}
+.expand {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.book-cover {
+	margin-bottom: 20px;
+	box-shadow: -4px -4px 50px #473b78;
+}	
+
+#previous-read {
+	background: #FF5C8D;
+}
+
+#next-read {
+	background: #FF85A9;
+}
+
+.quote {
+	padding: 10px;
+	font-style: italic;
+	font-size: 0.75em;
+} 
+
+#about-us {
+	background: #A089BE;
+	justify-content: space-around;
+}
+
+#socials {
+	background: #B5A3CC;
+}	
+	
+.faces {
+	border-radius: 50%;
+	padding: 10px;
+	box-shadow: -4px -4px 50px #473b78;
+}
+.info {
+	font-style: normal;
+	padding: 5px;
+	
+}
+
+/* Style rules for footer content */
+footer {
+	background-color: #74569b;
+	color: #fff;
+	font-size: 1.5 em;
+	border-top: 1px solid #d8bfd8;
+	border-bottom: 1px solid #d8bfd8;
+	text-align: center;
+	clear: left;
+}
+
+/*Media Query for Tablet Viewport */
+@media screen and (min-width: 550px), print {
+	
+	/*Tablet Viewport: Show tab-desk class, hide moible class */
+	.tab-desk {
+		display: block;
+	}
+	
+	.mobile {
+		display: none;
+	}
+
+	
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 769px), print {
+
+	/* Desktop Viewport: Style rule for header */
+	
+	header { 	
+		padding: 2%;
+	}
+	
+	/* Style rules for nav element */
+	
+	nav {
+	background-color: #74569b;
+	}
+
+	nav ul {
+		list-style-type: none;
+		text-align: center;
+		width: 100%;
+		padding: 6px 0; 
+	}
+
+	nav li {
+		display: inline;
+		font-size: 2 em;
+		border: none;
+	}
+
+	nav li a {
+		display: inline;
+		color: #fff;
+		text-align: center;
+		padding: 0.5em 1em;
+		text-decoration: none;
+	}
+	#content {
+	flex-direction: row; 	
+	}
+	
+	#content h2 {
+	font-size: 1.5em;
+	}
+}
